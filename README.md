@@ -1,3 +1,1 @@
-test\
-
-test2
+Temele de la cursul Python / IT Factory
