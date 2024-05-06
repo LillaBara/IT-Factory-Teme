@@ -13,6 +13,7 @@ Dacă acesta răspunde nu - la revedere
 Dacă răspunde da - îi cerem detalii task și salvăm nume+detalii în dict
 '''
 
+
 class TodoList:
     todo = {}
 
@@ -36,9 +37,10 @@ class TodoList:
             else:
                 print(f'Esti liber :)')
 
+
 hetfo = TodoList()
 hetfo.add_task('coffee', 'drink coffee with old classmate')
-hetfo.add_task('mail','checking mails')
+hetfo.add_task('mail', 'checking mails')
 hetfo.add_task('christening', 'editing the christening ceremony of Mark')
 hetfo.add_task('raport', 'designing the new variant of sustenability raport')
 hetfo.add_task('bike', 'go to biking on the specific training route')
@@ -54,5 +56,3 @@ print(' ')
 hetfo.list_details('meeting')
 print(' ')
 hetfo.list_todo()
-
-

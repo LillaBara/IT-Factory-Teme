@@ -18,6 +18,7 @@ franeaza() - mașina se va opri și va avea viteza 0
 
 '''
 
+
 class Masina:
     marca = 'Dacia'
     vit_act = 0
@@ -31,20 +32,23 @@ class Masina:
 
     def descrie(self):
         if self.inmat == True:
-            if self.vit_act>0:
-                print(f'Masina {self.marca}-{self.model} cu culoarea {self.color} are viteza maxima {self.max_speed} km/h'
-                      f' este inmatriculata si circula cu viteza {self.vit_act} km/h')
+            if self.vit_act > 0:
+                print(
+                    f'Masina {self.marca}-{self.model} cu culoarea {self.color} are viteza maxima {self.max_speed} km/h'
+                    f' este inmatriculata si circula cu viteza {self.vit_act} km/h')
             else:
-                print(f'Masina {self.marca}-{self.model} cu culoarea {self.color} are viteza maxima {self.max_speed} km/h'
-                      f' este inmatriculata si este oprita')
+                print(
+                    f'Masina {self.marca}-{self.model} cu culoarea {self.color} are viteza maxima {self.max_speed} km/h'
+                    f' este inmatriculata si este oprita')
         else:
-            if self.vit_act>0:
-                print(f'Masina {self.marca}-{self.model} cu culoarea {self.color} are viteza maxima {self.max_speed} km/h'
-                      f' nu este inmatriculata si circula cu viteza {self.vit_act} km/h')
+            if self.vit_act > 0:
+                print(
+                    f'Masina {self.marca}-{self.model} cu culoarea {self.color} are viteza maxima {self.max_speed} km/h'
+                    f' nu este inmatriculata si circula cu viteza {self.vit_act} km/h')
             else:
-                print(f'Masina {self.marca}-{self.model} cu culoarea {self.color} are viteza maxima {self.max_speed} km/h'
-                      f' nu este inmatriculata si este oprita')
-
+                print(
+                    f'Masina {self.marca}-{self.model} cu culoarea {self.color} are viteza maxima {self.max_speed} km/h'
+                    f' nu este inmatriculata si este oprita')
 
     def inmatriculare(self):
         self.inmat = True

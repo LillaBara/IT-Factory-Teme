@@ -36,7 +36,3 @@ while y.lower() != 'x':
         print('Invalid operation')
     print(x)
     y = input('> ')
-
-
-
-
